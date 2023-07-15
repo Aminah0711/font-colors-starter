@@ -1,0 +1,56 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: lightblue;
+  }
+p {
+  font-size: 1em;
+  color: darkgrey;
+}  
+/*Tablet*/
+@media (min-width: 768px) {
+
+h1 {
+  font-size: 2em;
+  color: red;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: pink;
+}
+p {
+  font-size: 1em;
+  color: black;
+}
+}
+/*Desktop*/
+@media (min-width: 1200px) {
+h1 
+  color: darkgreen;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: olive;
+}
+p {
+  font-size: 1em;
+  color: green;
+}
+}
